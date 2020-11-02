@@ -1,0 +1,20 @@
+.DS_Store
+.Rhistory
+derive_data/*
+maps_vectors_rasters/*
+old_data
+final_data/metadata/Final_metadata_05312019.csv
+final_data/metadata/new_raster_dir.csv
+plots/*
+raw_data/*
+caledna_transect.Rproj
+scripts/caledna_transect.sublime-project
+scripts/caledna_transect.sublime-workspace
+.Rproj.user/*
+scripts/other_scripts/*
+.Rproj.user
+README_v2.md
+
+# temporarily suppressing the original data files from the public 
+# these data are available upon request 
+final_data/*
