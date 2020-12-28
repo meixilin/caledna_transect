@@ -105,7 +105,8 @@ mantel(xdis = ED.bio.ex, y = bio.diss) # r = 0.2692; p = 0.001
 mantel(xdis = ED.nobio, y = bio.diss) # r = 0.2601; p = 0.001 
 mantel(xdis = ED.nobio, y = ED.bio.no)
 
-# (0.2747-0.2601)/0.2601
+# (0.2747-0.2601)/0.2601 # mantel 5.6% increase
+# (0.023896-0.024233)/0.024233 # stress performance 1.4% decrease (improvement)
 
 PCsites <- predict(PCs, Trns_site)
 ED.bio.no.pc <- stats::dist(PCsites[,1:2], method = "euclidean")

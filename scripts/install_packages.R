@@ -39,6 +39,9 @@ BiocManager::install("GO.db")
 BiocManager::install("AnnotationDbi")
 BiocManager::install("DESeq2")
 BiocManager::install("WGCNA")
+# SpiecEasi
+require(devtools)
+devtools::install_github("zdk123/SpiecEasi", ref = 'v0.1.4')
 
 # install gradient forest --------
 if (!requireNamespace("randomForest", quietly = TRUE)) {install.packages("randomForest")}

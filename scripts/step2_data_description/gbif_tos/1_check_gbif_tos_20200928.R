@@ -49,6 +49,7 @@ get_uniqtaxa <- function(df, taxacol) {
 # load data --------
 duptos = read.csv(file = "./derive_data/step2_data_description/gbif_tos/S6_TOS_GBIF.csv", stringsAsFactors = F)
 load("./derive_data/phy_deco/phy_deco_all.RData")
+# a total of 17338 taxonomic entries (same as what was documented in Figure 1C)
 
 # main --------
 # change the name of "NA" to ";" for phydeco_all ========

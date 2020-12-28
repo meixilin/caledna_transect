@@ -143,6 +143,7 @@ pp <- ggplot() +
     
 ggsave(filename = "./plots_important/step1_mk_phyloseq/phylo_circ_asv.pdf", plot = pp, device = "pdf", width = 8, height = 6, bg = "transparent")
 # save(pp, file = "./derive_data/step1_mk_phyloseq/phyla/pp.RData")
+# Note: in pp, there are 87 levels, minus the "unknown" level, we have 86 phyla in total
 # now we need to add polygon that shows the kingdom they are in
 # polygon <- data.frame(
 #     supk = rep(c('Archaea', 'Eukaryota', 'Bacteria'), each = 4),
