@@ -2,64 +2,13 @@
 
 # CALeDNA transect analyses
 
-*This repository stores the scripts and important data used to generate the analyses in "Landscape Analyses Using eDNA Metabarcoding and Earth Observation Predict Community Biodiversity in California" by Lin et al. Submitted.*
+*This repository stores the scripts used to generate the analyses in "Landscape Analyses Using eDNA Metabarcoding and Earth Observation Predict Community Biodiversity in California" by Lin et al. in press at Ecological Applications.*
 
-*The complete repository including raw data, maps and rasters, derived data and intermediate plots can be found at zenodo archive [link pending]().*
+*The complete repository including raw data, maps and rasters and derived data can be found at zenodo archive https://doi.org/10.5281/zenodo.4516670.*
 
-*The sequencing results are deposited in NCBI SRA [link pending ]()*
+*The raw sequencing results are deposited in Sequence Reads Archive (Bioproject: PRJNA702201).*
 
 Contact: Meixi Lin (meixilin[at]ucla[d0t]edu)
-
-# File structure
-
-```
-.
-├── README.md
-├── raw_data
-│   ├── TAXO
-│   ├── metadata
-│   ├── transect_ASV
-│   └── ucnrs
-├── final_data
-│   ├── Final_metadata.RData
-│   ├── deco_3
-│   ├── metadata
-│   └── ucnrs
-├── maps_vectors_rasters
-│   ├── rasters
-│   └── vectors
-├── derive_data
-│   ├── phy_deco
-│   ├── phy_rare
-│   ├── step0_prepare_data
-│   ├── step1_create_phyloseq
-│   ├── step2_data_description
-│   ├── step3_alpha_diver
-│   ├── step4_beta_diver
-│   ├── step6_gradient_forest
-│   └── step7_gradient_forest_prediction
-├── plots
-│   ├── step0_prepare_data
-│   ├── step1_create_phyloseq
-│   ├── step2_data_description
-│   ├── step3_alpha_diver
-│   ├── step4_beta_diver
-│   ├── step5_zeta_diver
-│   ├── step6_gradient_forest
-│   └── step7_gradient_forest_prediction
-└── scripts
-    ├── function_transect.R
-    ├── install_packages.R
-    ├── other_scripts
-    ├── step0_prepare_data
-    ├── step1_create_phyloseq
-    ├── step2_data_description
-    ├── step3_alpha_diver
-    ├── step4_beta_diver
-    ├── step5_zeta_diver
-    ├── step6_gradient_forest
-    └── step7_gradient_forest_prediction
-```
 
 # Scripts
 
